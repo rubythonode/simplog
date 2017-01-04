@@ -1,0 +1,122 @@
+
+body {
+  color: #333 ;
+  font-family: 'Noto Sans Korean', sans-serif;
+  line-height: 1.8 ;
+  background: #fff ;
+}
+
+.wrapper {
+  max-width: 680px ;
+  padding: 80px 10px 30px ;
+  margin: 0 auto ;
+}
+
+
+/* header */
+header {
+  position: relative ;
+  padding-bottom: 20px ;
+  border-bottom: 1px solid #ddd ;
+  margin-bottom: 100px ;
+}
+header .gb-nav {
+  position: relative ;
+  margin: 0px 15px ;
+}
+header .gb-nav h1 {
+  position: relative ;
+  top: 0 ;
+  left: 0 ;
+  font-size: 30px ;
+  /*font-weight: bold ;*/
+}
+header .gb-nav .nav-list {
+  position: absolute ;
+  right: 0 ;
+  bottom: 7px ;
+}
+header .gb-nav .nav-list li {
+  display: inline-block ;
+  margin-left: 20px ;
+  font-weight: 200 ;
+}
+header .gb-nav .nav-list li a {
+  color: #999 ;
+  font-size: 17px ;
+}
+header .gb-nav .nav-list li a:hover {
+  color: #666 ;
+}
+
+
+/* post-list */
+.post-list {
+  margin: 0 15px 30px ;
+}
+.post-list > li {
+  padding-bottom: 50px ;
+  border-bottom: 1px solid #ededed ;
+  margin-bottom: 50px ;
+}
+.post-list > li:last-child {
+  border: none ;
+}
+.post-list > li .post-title {
+  margin-bottom: 20px ;
+  font-size: 22px ;
+  /*font-weight: bold ;*/
+}
+.post-list > li .post-title::first-letter {
+  text-transform: capitalize ;
+}
+.post-list > li .post-summary {
+  margin-bottom: 10px ;
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+}
+.post-list > li .post-summary::first-letter {
+  text-transform: capitalize ;
+}
+.post-list > li .post-footer {
+  position: relative ;
+}
+.post-list > li .post-footer > li {
+  margin-right: 20px ;
+}
+.post-list > li .post-footer .post-date {
+  position: absolute ;
+  right: 0 ;
+  top: 0 ;
+  color: #bbb ;
+  font-size: 12px ;
+  font-weight: 200 ;
+}
+.post-list > li .post-footer .post-tags {
+  font-size: 12px ;
+}
+.post-list > li .post-footer .post-tags ul li {
+  display: inline-block ;
+  margin-right: 5px ;
+}
+
+
+/* footer */
+footer {
+  position: relative ;
+  padding: 15px ;
+  border-top: 1px solid #ddd ;
+  color: #999 ;
+  font-size: 12px ;
+  font-weight: 200 ;
+  text-align: left ;
+}
+footer .social-list {
+  position: absolute ;
+  right: 15px ;
+}
+footer .social-list li {
+  display: inline-block ;
+  margin-left: 10px ;
+}
