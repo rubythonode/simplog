@@ -59,72 +59,6 @@ header .gb-nav ul li a:hover {
 }
 
 
-/* post-list */
-.post-list {
-  margin: 0 10px ;
-}
-.post-list > li {
-  padding-bottom: 50px ;
-  border-bottom: 1px solid #ededed ;
-  margin-bottom: 50px ;
-}
-.post-list > li:last-child {
-  border: none ;
-  margin-bottom: 30px ;
-}
-
-.post-list > li .post-title {
-  margin-bottom: 15px ;
-  font-size: 20px ;
-  /*font-weight: 300 ;*/
-  line-height: 1.4 ;
-}
-.post-list > li .post-title::first-letter {
-  text-transform: capitalize ;
-}
-
-.post-list > li .post-summary {
-  margin-bottom: 15px ;
-  color: #666 ;
-  font-size: 14px ;
-  font-weight: 300 ;
-}
-.post-list > li .post-summary::first-letter {
-  text-transform: capitalize ;
-}
-
-.post-list > li .post-footer {
-  position: relative ;
-}
-
-.post-list > li .post-footer .post-date {
-  color: #aaa ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-transform: uppercase ;
-}
-.post-list > li .post-footer .post-date:hover {
-  color: #666 ;
-}
-
-.post-list > li .post-footer .post-tags {
-  position: absolute ;
-  right: 0 ;
-  top: 0 ;
-  color: #ccc ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-transform: uppercase ;
-}
-.post-list > li .post-footer .post-tags ul li {
-  display: inline-block ;
-  margin-right: 5px ;
-}
-.post-list > li .post-footer .post-tags ul li:hover {
-  color: #666 ;
-}
-
-
 /* footer */
 footer {
   position: relative ;
@@ -145,6 +79,123 @@ footer .social-list li {
 }
 footer .social-list li:hover {
   color: #333 ;
+}
+
+
+/* blog */
+#blog {
+  padding: 0 10px ;
+}
+#blog .post-list > li {
+  padding-bottom: 50px ;
+  border-bottom: 1px solid #ededed ;
+  margin-bottom: 50px ;
+}
+#blog .post-list > li:last-child {
+  border: none ;
+  margin-bottom: 30px ;
+}
+
+#blog .post-list > li .post-title {
+  margin-bottom: 15px ;
+  font-size: 20px ;
+  /*font-weight: 300 ;*/
+  line-height: 1.4 ;
+}
+#blog .post-list > li .post-title::first-letter {
+  text-transform: capitalize ;
+}
+
+#blog .post-list > li .post-summary {
+  margin-bottom: 15px ;
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+}
+#blog .post-list > li .post-summary::first-letter {
+  text-transform: capitalize ;
+}
+
+#blog .post-list > li .post-footer {
+  position: relative ;
+}
+
+#blog .post-list > li .post-footer .post-date {
+  color: #aaa ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-transform: uppercase ;
+}
+#blog .post-list > li .post-footer .post-date a:hover {
+  color: #666 ;
+}
+
+#blog .post-list > li .post-footer .post-tags {
+  position: absolute ;
+  right: 0 ;
+  top: 0 ;
+  color: #ccc ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-transform: uppercase ;
+}
+#blog .post-list > li .post-footer .post-tags ul li {
+  display: inline-block ;
+  margin-right: 5px ;
+}
+#blog .post-list > li .post-footer .post-tags ul li:hover {
+  color: #666 ;
+}
+
+
+/* post */
+#post {
+  padding: 0 10px ;
+}
+#post > * {
+  margin-bottom: 30px ;
+}
+
+#post h2 {
+  font-size: 28px ;
+}
+#post h3 {
+  font-size: 26px ;
+}
+#post h4 {
+  font-size: 24px ;
+}
+#post h5 {
+  font-size: 22px ;
+}
+#post p {
+  color: #666 ;
+  font-size: 16px ;
+  font-weight: 300 ;
+}
+#post ul {
+  list-style: disc ;
+  padding-left: 50px ;
+  color: #666 ;
+  font-weight: 300 ;
+}
+#post ol {
+  list-style: decimal ;
+  padding-left: 50px ;
+  color: #666 ;
+  font-weight: 300 ;
+}
+#post a {
+  color: #999 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+  text-decoration: underline ;
+}
+#post a:hover {
+  color: #333 ;
+}
+#post img {
+  width: 100% ;
 }
 
 
