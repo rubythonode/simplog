@@ -239,7 +239,7 @@ footer .social-list li:hover {
 
 #post iframe {
   width: 1024px!important ;
-  margin-left: -192px ;
+  margin-left: -212px ;
 }
 @media screen and (max-width: 1280px) {
   #post iframe {
