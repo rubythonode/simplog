@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Sample post, Sep 11"
-date:   2015-11-11 12:00:00
+title:  "Sample post, Aug 08"
+date:   2016-08-08 12:00:00
 categories: example
 ---
 
