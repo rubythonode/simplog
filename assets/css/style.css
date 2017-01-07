@@ -1,4 +1,5 @@
 
+/* common */
 body {
   color: #333 ;
   font-family: 'Noto Sans Korean', sans-serif;
@@ -15,19 +16,17 @@ body {
 
 
 /* header */
-header {
+#gb-header {
   position: relative ;
   padding: 0px 10px 25px ;
   border-bottom: 1px solid #ededed ;
   margin-bottom: 100px ;
 }
-
-header h1 {
+#gb-header h1 {
   font-size: 30px ;
   font-weight: 300 ;
 }
-
-header .gb-nav {
+#gb-header .gb-nav {
   position: absolute ;
   bottom: 0 ;
   right: 10px ;
@@ -35,30 +34,30 @@ header .gb-nav {
   padding-bottom: 15px ;
   box-sizing: border-box ;
 }
-header .gb-nav:before {
+#gb-header .gb-nav:before {
   /* 메뉴 중앙 정렬 코드 */
   content: ' ' ;
   display: inline-block ;
   height: 100% ;
   vertical-align: middle ;
 }
-header .gb-nav ul {
+#gb-header .gb-nav ul {
   display: inline-block ;
   vertical-align: middle ;
 }
-header .gb-nav ul li {
+#gb-header .gb-nav ul li {
   display: inline-block ;
   margin-left: 20px ;
   font-size: 18px ;
   font-weight: 200 ;
 }
-header .gb-nav ul li a {
+#gb-header .gb-nav ul li a {
   color: #999 ;
 }
-header .gb-nav ul li.active a {
+#gb-header .gb-nav ul li.active a {
   color: #333 ;
 }
-header .gb-nav ul li a:hover {
+#gb-header .gb-nav ul li a:hover {
   color: #333 ;
 }
 
@@ -107,7 +106,6 @@ footer .social-list li:hover {
 #blog .post-title {
   margin-bottom: 10px ;
   font-size: 20px ;
-  /*font-weight: 300 ;*/
   line-height: 1.4 ;
 }
 #blog .post-title::first-letter {
@@ -156,109 +154,97 @@ footer .social-list li:hover {
 }
 
 
-/* post */
-#post > * {
+/* section : post */
+#main > * {
   margin-bottom: 30px ;
 }
-#post .post-info {
-  position: relative ;
-  padding: 0 ;
+#main h2 {
   margin-bottom: 50px ;
-  list-style: none ;
-}
-#post .post-info .post-date a {
-  color: #aaa ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-transform: uppercase ;
-}
-#post .post-info .post-date a:hover {
-  color: #666 ;
-}
-
-#post .post-info .post-tags {
-  position: absolute ;
-  right: 0 ;
-  top: 0 ;
-}
-#post .post-info .post-tags ul li {
-  display: inline-block ;
-  margin-right: 5px ;
-}
-#post .post-info .post-tags ul li a {
-  color: #ccc ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-decoration: none ;
-}
-#post .post-info .post-tags ul li:hover a {
-  color: #666 ;
-}
-
-#post h2 {
-  margin: 50px 0px 50px ;
   font-size: 24px ;
 }
-#post h3 {
+#main h3 {
   margin: 80px 0px 25px ;
   font-size: 20px ;
 }
-#post h4 {
+#main h4 {
   margin: 70px 0px 20px ;
   font-size: 18px ;
 }
-#post h5 {
+#main h5 {
   margin: 70px 0px 15px ;
   font-size: 16px ;
 }
-#post p {
+#main p {
   color: #666 ;
   font-size: 16px ;
   font-weight: 300 ;
 }
-#post ul {
+#main ul {
   list-style: disc ;
   padding-left: 50px ;
   color: #666 ;
   font-weight: 300 ;
 }
-#post ol {
+#main ol {
   list-style: decimal ;
   padding-left: 50px ;
   color: #666 ;
   font-weight: 300 ;
 }
-#post a {
+#main a {
   color: #999 ;
   font-size: 16px ;
   font-weight: 300 ;
   text-decoration: underline ;
 }
-#post a:hover {
+#main a:hover {
   color: #333 ;
 }
-#post img {
+#main img {
   width: 100% ;
 }
-
-#post iframe {
+#main iframe {
   width: 1024px!important ;
   margin-left: -212px ;
 }
-@media screen and (max-width: 1280px) {
-  #post iframe {
-    width: 100%!important ;
-    margin: 0 ;
-  }
+
+#main .post-info {
+  position: relative ;
+  padding: 0 ;
+  margin-bottom: 50px ;
+  list-style: none ;
+}
+#main .post-info .post-date a {
+  color: #aaa ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-transform: uppercase ;
+}
+#main .post-info .post-date a:hover {
+  color: #666 ;
 }
 
-
-.archive ul > li > span {
+#main .post-info .post-tags {
+  position: absolute ;
+  right: 0 ;
+  top: 0 ;
+}
+#main .post-info .post-tags ul li {
   display: inline-block ;
-  width: 60px ;
+  margin-right: 5px ;
+}
+#main .post-info .post-tags ul li a {
+  color: #ccc ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-decoration: none ;
+}
+#main .post-info .post-tags ul li:hover a {
+  color: #666 ;
 }
 
 
+/* media query */
 @media screen and (max-width: 767px) {
   .wrapper {
     padding: 30px 10px ;
@@ -281,5 +267,11 @@ footer .social-list li:hover {
   }
   footer {
     font-size: 10px ;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #post iframe {
+    width: 100%!important ;
+    margin: 0 ;
   }
 }
