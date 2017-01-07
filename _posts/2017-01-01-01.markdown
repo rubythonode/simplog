@@ -1,14 +1,15 @@
 ---
 layout: post
-title:  "Introducing Simplog"
+title:  "Simplog sample post for example"
 date:   2017-01-01 12:00:00
 categories: simplog
 ---
 
+
 "Simplog" is a compound word of "Simple" and "Blog".
 
 
-### You can use highlight code
+### Highlight Code View
 
 You can use highlight code view.
 
@@ -37,6 +38,7 @@ You can use 3 heading by default.
 ```
 
 `# Heading` is for blog's logo and `## Heading` is for post's title.
+So it is recommended that you would not use those two headings in the post.
 
 
 ### Unordered List
@@ -71,10 +73,10 @@ You can use 3 heading by default.
 
 ### Anchor Tag
 
-[Simplog Github Page Address](https://github.com/dhparkdh/dhparkdh.github.io)
+[Simplog Download Page](https://github.com/dhparkdh/simplog)
 
 ```markdown
-[Simplog Github Page Address](https://github.com/dhparkdh/dhparkdh.github.io)
+[Simplog Download Page](https://github.com/dhparkdh/simplog)
 ```
 
 

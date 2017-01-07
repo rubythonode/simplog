@@ -1,5 +1,5 @@
 
-# Simplog - Jekyll Blog Theme
+# Simplog - Jekyll Blog
 
 Simplog = Simple + Blog.
 
