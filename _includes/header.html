@@ -1,0 +1,27 @@
+<!-- header -->
+<header>
+	<h1><a href="/">Simplog</a></h1>
+	<nav class="gb-nav">
+		<ul>
+
+      {% if page.path == "index.html" %}
+			<li class="active"><a href="/">about</a></li>
+			{% else %}
+			<li><a href="/">about</a></li>
+			{% endif %}
+
+      {% if page.path == "blog.html" %}
+			<li class="active"><a href="/blog">blog</a></li>
+			{% else %}
+			<li><a href="/blog">blog</a></li>
+			{% endif %}
+
+      {% if page.path == "archive.html" %}
+			<li class="active"><a href="/archive">archive</a></li>
+			{% else %}
+			<li><a href="/archive">archive</a></li>
+			{% endif %}
+
+		</ul>
+	</nav>
+</header><!-- header -->

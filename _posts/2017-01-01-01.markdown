@@ -1,0 +1,89 @@
+---
+layout: post
+title:  "Simplog sample post for example"
+date:   2017-01-01 12:00:00
+categories: simplog
+---
+
+
+"Simplog" is a compound word of "Simple" and "Blog".
+
+
+### Highlight Code View
+
+You can use highlight code view.
+
+```html
+<article id="simplog">
+  <h1>Simplog</h1>
+  <p>
+    "Simplog" is a compound word of "Simple" and "Blog".
+  </p>
+</article>
+```
+
+
+### Headings
+
+You can use 3 heading by default.
+
+<h3 style="margin: 0;">Heading First Level</h3>
+<h4 style="margin: 0;">Heading Second Level</h4>
+<h5 style="margin: 0 0 50px;">Heading Thrid Level</h5>
+
+```markdown
+### Heading First Level
+#### Heading Second Level
+##### Heading Thrid Level
+```
+
+`# Heading` is for blog's logo and `## Heading` is for post's title.
+So it is recommended that you would not use those two headings in the post.
+
+
+### Unordered List
+
+- Unordered list item 1
+- Unordered list item 2
+- Unordered list item 3
+- Unordered list item 4
+
+```markdown
+- Unordered list item 1
+- Unordered list item 2
+- Unordered list item 3
+- Unordered list item 4
+```
+
+
+### Ordered List
+
+1. Ordered list item 1
+2. Ordered list item 1
+3. Ordered list item 1
+4. Ordered list item 1
+
+```markdown
+1. Ordered list item 1
+2. Ordered list item 1
+3. Ordered list item 1
+4. Ordered list item 1
+```
+
+
+### Anchor Tag
+
+[Simplog Download Page](https://github.com/dhparkdh/simplog)
+
+```markdown
+[Simplog Download Page](https://github.com/dhparkdh/simplog)
+```
+
+
+### Image
+
+![Alternative Text](https://github.com/dhparkdh/dhparkdh.github.io/blob/master/assets/img/screenshot.png?raw=true)
+
+```markdown
+![Alternative Text](/path/to/image)
+```

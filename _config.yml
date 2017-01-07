@@ -1,0 +1,8 @@
+# Site settings
+title: Simplog
+
+# the subpath of your site, e.g. /simplog
+baseurl: "/simplog"
+
+# Build settings
+markdown: kramdown
