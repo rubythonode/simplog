@@ -1,7 +1,10 @@
-# Site settings
+# settings
+
+# the title of your site
 title: Simplog
 
-# the subpath of your site, e.g. /simplog
+# the subpath of your site
+# ex) baseurl: "/simplog"
 baseurl: "/simplog"
 
 # Build settings
