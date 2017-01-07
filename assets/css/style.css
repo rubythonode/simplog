@@ -279,6 +279,9 @@ footer .social-list li:hover {
   margin: 0 30px ;
   text-decoration: none ;
 }
+#sort .link a.active {
+  color: #333 ;
+}
 
 
 /* media query */
