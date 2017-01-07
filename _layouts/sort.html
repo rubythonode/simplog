@@ -6,15 +6,15 @@
   <body>
     <div class="wrapper">
 
-      <div class="link">
-        <a href="{{ "/category" | prepend: site.baseurl }}">category</a>
-        &#124;
-        <a href="{{ "/archive" | prepend: site.baseurl }}">year</a>
-      </div>
-
       {% include header.html %}
 
       <section id="sort">
+
+        <div class="link">
+          <a href="{{ "/category" | prepend: site.baseurl }}">category</a>
+          &#124;
+          <a href="{{ "/archive" | prepend: site.baseurl }}">year</a>
+        </div>
 
         {{ content }}
 
