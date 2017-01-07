@@ -1,141 +1,29 @@
-<!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: blog
+---
 
-    <title>Simplog</title>
-
-    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico">
-
-    <!-- Noto Sans KR-Hestia -->
-    <link rel="stylesheet" href="./assets/noto-fonts/stylesheets/NotoSansKR-Hestia.css">
-
-    <!-- font-awesome -->
-    <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- highlight -->
-    <link href="./assets/css/highlight.css" rel="stylesheet">
-
-    <!-- custom css -->
-    <link href="./assets/css/initialize.css" rel="stylesheet">
-    <link href="./assets/css/style.css" rel="stylesheet">
-
-    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
-    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-
-    <!-- wrapper -->
-    <div class="wrapper">
-
-
-      <!-- header -->
-      <header>
-        <h1><a href="#">Simplog</a></h1>
-        <nav class="gb-nav">
-          <ul>
-            <li><a href="#">about</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">archive</a></li>
-          </ul>
-        </nav>
-      </header><!-- header -->
-
-
-      <!-- section : blog -->
-      <section id="blog">
-
-        <!-- post list -->
-        <ul class="post-list">
-
-          <li>
-            <h2 class="post-title">
-              <a href="#">This is the title of your awesome post !!!</a>
-            </h2>
-            <p class="post-summary">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <ul class="post-info">
-              <li class="post-date">
-                <a href="#">JAN 1, 2017</a>
-              </li>
-              <li class="post-tags">
-                <ul>
-                  <li><a href="#">#html5</a></li>
-                  <li><a href="#">#css3</a></li>
-                  <li><a href="#">#javascript</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <h2 class="post-title">
-              <a href="#">This is the title of your awesome post !!!</a>
-            </h2>
-            <p class="post-summary">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <ul class="post-info">
-              <li class="post-date">
-                <a href="#">JAN 1, 2017</a>
-              </li>
-              <li class="post-tags">
-                <ul>
-                  <li><a href="#">#html5</a></li>
-                  <li><a href="#">#css3</a></li>
-                  <li><a href="#">#javascript</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-          <li>
-            <h2 class="post-title">
-              <a href="#">This is the title of your awesome post !!!</a>
-            </h2>
-            <p class="post-summary">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </p>
-            <ul class="post-info">
-              <li class="post-date">
-                <a href="#">JAN 1, 2017</a>
-              </li>
-              <li class="post-tags">
-                <ul>
-                  <li><a href="#">#html5</a></li>
-                  <li><a href="#">#css3</a></li>
-                  <li><a href="#">#javascript</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-
-        </ul><!-- post list -->
-
-      </section><!-- section : blog -->
-
-
-      <!-- footer -->
-      <footer>
-        <ul class="social-list">
-          <li><a href="#" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+<!-- post list -->
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li>
+    <h2 class="post-title">
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <p class="post-summary">
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+    </p>
+    <!-- <ul class="post-info">
+      <li class="post-date">
+        <a href="#">{{ post.date | date: "%b %-d, %Y" }}</a>
+      </li>
+      <li class="post-tags">
+        <ul>
+          {% for category in post.categories %}
+          <li><a href="#">#{{ category }}</a></li>
+          {% endfor %}
         </ul>
-        © 2016 dhpark. All rights reserved.
-      </footer><!-- footer -->
-
-
-    </div><!-- wrapper -->
-
-  </body>
-</html>
+      </li>
+    </ul> -->
+  </li>
+  {% endfor %}
+</ul><!-- post list -->

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="wrapper">
+
+      {% include header.html %}
+
+      <section id="post">
+
+        <h2 class="post-title">{{ page.title }}</h2>
+
+        <!-- <ul class="post-info">
+          <li class="post-date">
+            <a href="#">{{ page.date | date: "%b %-d, %Y" }}</a>
+          </li>
+          <li class="post-tags">
+            <ul>
+              {% for category in page.categories %}
+              <li><a href="#">#{{ category }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        </ul> -->
+
+        {{ content }}
+
+      </section>
+
+      {% include footer.html %}
+
+    </div>
+  </body>
+
+</html>
