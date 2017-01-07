@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: sort
 ---
 
-<div class="archive">
 
   {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
   {% assign category = categories | split:',' | sort %}
@@ -30,5 +29,3 @@ layout: default
     {% endunless %}<!-- unless -->
 
   {% endfor %}<!-- for -->
-
-</div>

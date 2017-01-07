@@ -92,68 +92,6 @@ footer .social-list li:hover {
 }
 
 
-/* blog */
-#blog .post-list > li {
-  /*padding-bottom: 50px ;*/
-  /*border-bottom: 1px solid #ededed ;*/
-  margin-bottom: 75px ;
-}
-#blog .post-list > li:last-child {
-  border: none ;
-  margin-bottom: 30px ;
-}
-
-#blog .post-title {
-  margin-bottom: 10px ;
-  font-size: 20px ;
-  line-height: 1.4 ;
-}
-#blog .post-title::first-letter {
-  text-transform: capitalize ;
-}
-
-#blog .post-summary {
-  color: #666 ;
-  font-size: 14px ;
-  font-weight: 300 ;
-  line-height: 2.0 ;
-}
-#blog .post-summary::first-letter {
-  text-transform: capitalize ;
-}
-
-#blog .post-info {
-  position: relative ;
-}
-
-#blog .post-info .post-date {
-  color: #aaa ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-decoration: underline ;
-}
-#blog .post-info .post-date a:hover {
-  color: #666 ;
-}
-
-#blog .post-info .post-tags {
-  position: absolute ;
-  right: 0 ;
-  top: 0 ;
-  color: #ccc ;
-  font-size: 12px ;
-  font-weight: 300 ;
-}
-#blog .post-info .post-tags ul li {
-  display: inline-block ;
-  margin-right: 5px ;
-}
-#blog .post-info .post-tags ul li a:hover {
-  color: #666 ;
-  text-decoration: underline ;
-}
-
-
 /* section : post */
 #main > * {
   margin-bottom: 50px ;
@@ -241,6 +179,94 @@ footer .social-list li:hover {
 }
 #main .post-info .post-tags ul li:hover a {
   color: #666 ;
+}
+
+
+/* blog */
+#blog .post-list > li {
+  /*padding-bottom: 50px ;*/
+  /*border-bottom: 1px solid #ededed ;*/
+  margin-bottom: 75px ;
+}
+#blog .post-list > li:last-child {
+  border: none ;
+  margin-bottom: 30px ;
+}
+
+#blog .post-title {
+  margin-bottom: 10px ;
+  font-size: 20px ;
+  line-height: 1.4 ;
+}
+#blog .post-title::first-letter {
+  text-transform: capitalize ;
+}
+
+#blog .post-summary {
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+  line-height: 2.0 ;
+}
+#blog .post-summary::first-letter {
+  text-transform: capitalize ;
+}
+
+#blog .post-info {
+  position: relative ;
+}
+
+#blog .post-info .post-date {
+  color: #aaa ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-decoration: underline ;
+}
+#blog .post-info .post-date a:hover {
+  color: #666 ;
+}
+
+#blog .post-info .post-tags {
+  position: absolute ;
+  right: 0 ;
+  top: 0 ;
+  color: #ccc ;
+  font-size: 12px ;
+  font-weight: 300 ;
+}
+#blog .post-info .post-tags ul li {
+  display: inline-block ;
+  margin-right: 5px ;
+}
+#blog .post-info .post-tags ul li a:hover {
+  color: #666 ;
+  text-decoration: underline ;
+}
+
+
+/* sort */
+#sort h2 {
+  margin: 50px 0px ;
+  font-size: 24px ;
+}
+#sort ul {
+  list-style: disc ;
+  padding-left: 50px ;
+  color: #666 ;
+  font-weight: 300 ;
+}
+#sort a {
+  color: #999 ;
+  font-size: 16px ;
+  font-weight: 300 ;
+  text-decoration: underline ;
+}
+#sort a:hover {
+  color: #333 ;
+}
+#sort .date {
+  display: inline-block ;
+  width: 65px ;
 }
 
 
