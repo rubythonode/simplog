@@ -4,13 +4,7 @@ layout: default
 
 <div class="archive">
 
-  {% capture categories %}
-    {% for category in site.categories %}
-      {{ category | first }}
-      {% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  {% endcapture %}
-
+  {% capture categories %}{% for category in site.categories %}{{ category | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
   {% assign category = categories | split:',' | sort %}
 
   {% for item in (0..site.categories.size) %}<!-- for -->
