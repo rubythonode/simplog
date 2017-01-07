@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<div class="archive">
+  
 {% for post in site.posts %}<!-- for -->
 
   {% unless post.next %}<!-- unless -->
@@ -32,4 +34,6 @@ layout: default
     </li>
 
 {% endfor %}<!-- for -->
-</ul>
+  </ul>
+
+</div>

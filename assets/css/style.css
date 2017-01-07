@@ -253,6 +253,12 @@ footer .social-list li:hover {
 }
 
 
+.archive ul > li > span {
+  display: inline-block ;
+  width: 60px ;
+}
+
+
 @media screen and (max-width: 767px) {
   .wrapper {
     padding: 30px 10px ;
