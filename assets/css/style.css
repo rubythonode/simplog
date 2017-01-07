@@ -158,7 +158,7 @@ footer .social-list li:hover {
 
 /* post */
 #post > * {
-  margin-bottom: 50px ;
+  margin-bottom: 30px ;
 }
 #post .post-info {
   position: relative ;
@@ -196,18 +196,19 @@ footer .social-list li:hover {
 }
 
 #post h2 {
+  margin-bottom: 50px ;
   font-size: 24px ;
 }
 #post h3 {
-  margin: 80px 0px 40px ;
+  margin: 80px 0px 25px ;
   font-size: 20px ;
 }
 #post h4 {
-  margin: 70px 0px 30px ;
+  margin: 70px 0px 20px ;
   font-size: 18px ;
 }
 #post h5 {
-  margin: 70px 0px 20px ;
+  margin: 70px 0px 15px ;
   font-size: 16px ;
 }
 #post p {
