@@ -20,7 +20,7 @@
 
       {% if page.path == "category.html" %}
 			<li class="active"><a href="{{ "/category" | prepend: site.baseurl }}">category</a></li>
-      {% elseif page.path == "archive.html" %}
+      {% else if page.path == "archive.html" %}
 			<li class="active"><a href="{{ "/category" | prepend: site.baseurl }}">category</a></li>
 			{% else %}
 			<li><a href="{{ "/category" | prepend: site.baseurl }}">category</a></li>
