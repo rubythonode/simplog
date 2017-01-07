@@ -8,5 +8,5 @@ title: Simplog
 # ex) baseurl: "/simplog"
 baseurl: "/simplog"
 
-# Build settings
+# Build settings : don't touch
 markdown: kramdown
