@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sample post for example"
+title:  "How to configure '_config.yml' file"
 date:   2017-01-01 12:00:00
 categories: simplog
 ---
