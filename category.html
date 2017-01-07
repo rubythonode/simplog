@@ -7,9 +7,7 @@ layout: default
   {% capture categories %}
     {% for category in site.categories %}
       {{ category | first }}
-      {% unless forloop.last %}
-        ,
-      {% endunless %}
+      {% unless forloop.last %},{% endunless %}
     {% endfor %}
   {% endcapture %}
 
