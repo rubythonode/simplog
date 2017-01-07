@@ -5,21 +5,21 @@
 		<ul>
 
       {% if page.path == "index.html" %}
-			<li class="active"><a href="/">about</a></li>
+			<li class="active"><a href="{{ "/" | prepend: site.baseurl }}">about</a></li>
 			{% else %}
-			<li><a href="/">about</a></li>
+			<li><a href="{{ "/" | prepend: site.baseurl }}">about</a></li>
 			{% endif %}
 
       {% if page.path == "blog.html" %}
-			<li class="active"><a href="/blog">blog</a></li>
+			<li class="active"><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
 			{% else %}
-			<li><a href="/blog">blog</a></li>
+			<li><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
 			{% endif %}
 
       {% if page.path == "archive.html" %}
-			<li class="active"><a href="/archive">archive</a></li>
+			<li class="active"><a href="{{ "/archive" | prepend: site.baseurl }}">archive</a></li>
 			{% else %}
-			<li><a href="/archive">archive</a></li>
+			<li><a href="{{ "/archive" | prepend: site.baseurl }}">archive</a></li>
 			{% endif %}
 
 		</ul>
