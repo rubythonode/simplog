@@ -289,13 +289,13 @@ footer .social-list li:hover {
   .wrapper {
     padding: 30px 10px ;
   }
-  header {
+  #gb-header {
     margin-bottom: 50px ;
   }
-  header h1 {
+  #gb-header h1 {
     font-size: 30px ;
   }
-  header .gb-nav ul li {
+  #gb-header .gb-nav ul li {
     margin-left: 10px ;
   }
   .post-list > li {
