@@ -266,19 +266,6 @@ footer .social-list li:hover {
   display: inline-block ;
   width: 65px ;
 }
-#sort .link {
-  margin-bottom: 0 ;
-  color: #999 ;
-  font-weight: 300 ;
-  text-align: center ;
-}
-#sort .link a {
-  margin: 0 30px ;
-  text-decoration: none ;
-}
-#sort .link a.active {
-  color: #333 ;
-}
 
 
 /* contact */
