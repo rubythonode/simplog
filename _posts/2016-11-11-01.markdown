@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simplog jekyll blog"
+title:  "About Simplog"
 date:   2016-11-11 12:00:00
 categories: markdown
 ---

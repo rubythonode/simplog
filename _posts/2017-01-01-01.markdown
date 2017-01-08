@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Sample post using all elements"
+title:  "Sample post"
 date:   2017-01-01 12:00:00
 categories: markdown
 ---
