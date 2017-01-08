@@ -36,4 +36,6 @@ function sendMail(){
 
   window.location = 'mailto:' + _email + '?subject=' + _subject + '&body=' + _content ;
 
+  
+
 }
