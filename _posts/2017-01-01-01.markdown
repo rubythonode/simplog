@@ -96,8 +96,8 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Emebeded
 
-<iframe width="492" height="500" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
 
 ```html
-<iframe width="492" height="500" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
 ```
