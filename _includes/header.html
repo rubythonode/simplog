@@ -18,12 +18,10 @@
 			<li><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
 			{% endif %}
 
-      {% if page.path == "category.html" %}
-			<li class="active"><a href="{{ "/category" | prepend: site.baseurl }}">category</a></li>
-      {% elsif page.path == "archive.html" %}
-			<li class="active"><a href="{{ "/category" | prepend: site.baseurl }}">category</a></li>
+      {% if page.path == "contact.html" %}
+			<li class="active"><a href="{{ "/contact" | prepend: site.baseurl }}">contact</a></li>
 			{% else %}
-			<li><a href="{{ "/category" | prepend: site.baseurl }}">category</a></li>
+			<li><a href="{{ "/contact" | prepend: site.baseurl }}">contact</a></li>
 			{% endif %}
 
 		</ul>
