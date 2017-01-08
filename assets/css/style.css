@@ -9,7 +9,7 @@ body {
 
 .wrapper {
   max-width: 720px ;
-  padding: 75px 50px 20px ;
+  padding: 50px 50px 20px ;
   margin: 0 auto ;
   box-sizing: border-box ;
 }
@@ -185,8 +185,6 @@ footer .social-list li:hover {
 
 /* blog */
 #blog .post-list > li {
-  /*padding-bottom: 50px ;*/
-  /*border-bottom: 1px solid #ededed ;*/
   margin-bottom: 75px ;
 }
 #blog .post-list > li:last-child {
@@ -350,18 +348,11 @@ footer .social-list li:hover {
   #gb-header {
     margin-bottom: 50px ;
   }
-  #gb-header h1 {
-    font-size: 30px ;
-  }
-  #gb-header .gb-nav ul li {
-    margin-left: 10px ;
-  }
-  .post-list > li {
-    padding-bottom: 30px ;
+  section  {
     margin-bottom: 50px ;
   }
-  .post-list >li .post-title {
-    font-size: 20px ;
+  .post-list > li {
+    margin-bottom: 30px ;
   }
   footer {
     font-size: 10px ;
