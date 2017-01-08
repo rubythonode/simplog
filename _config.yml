@@ -1,12 +1,18 @@
 
 # Settings
 
-# the title of your site
+# Title of your site
 title: Simplog
+description: > # this means to ignore newlines until "baseurl:"
+  Write the description of your website.
 
 # the subpath of your site
 # ex) baseurl: "/simplog"
 baseurl: "/simplog"
+
+
+# Contact
+email: "simplog@simplog.com" # for contact form
 
 # Build settings : don't touch
 markdown: kramdown
