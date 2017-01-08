@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "Sample post using all elements"
-date:   2016-12-31 12:00:00
-categories: simplog
+date:   2016-11-11 12:00:00
+categories: markdown
 ---
 
 
-"Simplog" is a compound word of "Simple" and "Blog".
+This post will be helpful to write post using simplog's elements.
 
 
 ### Highlight Code View

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Simplog Jekyll Blog"
+date:   2016-11-11 12:00:00
+categories: markdown
+---
+
+
+![Alternative Text](https://github.com/dhparkdh/dhparkdh.github.io/blob/master/assets/img/screenshot.png?raw=true)
+
+
+"Simplog" is a compound word of "Simple" and "Blog".
+
+If you want to know how to fix `_config.yml` file, then go to
+[How to fix _config.yml file](https://dhparkdh.github.io/simplog/simplog/2016/12/25/01.html).
+
+If you want to know how to write post using elements, then go to
+[Sample post using all elements](https://dhparkdh.github.io/simplog/simplog/2017/01/01/01.html).
+
+Or you want to download `Simplog` jekyll theme, then go to
+[Simplog Jekyll Blog](https://github.com/dhparkdh/simplog).

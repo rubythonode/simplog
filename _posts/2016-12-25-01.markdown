@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "How to fix _config.yml file"
-date:   2017-01-01 12:00:00
-categories: simplog
+date:   2016-12-25 12:00:00
+categories: yml
 ---
 
 
