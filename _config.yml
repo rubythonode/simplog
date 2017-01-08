@@ -18,10 +18,10 @@ email: "simplog@simplog.com" # for contact form
 
 # Footer : scoial information
 # If you don't have, just let it blank.
-facebook: ""
-instagram: ""
-twitter: ""
-github: ""
+facebook: "facebook_link" # default: facebook: ""
+instagram: "instagram_link" # default: instagram: ""
+twitter: "twitter_link" # default: twitter: ""
+github: "github_link" # default: github: ""
 
 
 # Build settings : don't touch
