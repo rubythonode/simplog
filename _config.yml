@@ -6,13 +6,23 @@ title: Simplog
 description: > # this means to ignore newlines until "baseurl:"
   Write the description of your website.
 
+
 # the subpath of your site
-# ex) baseurl: "/simplog"
+# baseurl: "" # default
 baseurl: "/simplog"
 
 
 # Contact
 email: "simplog@simplog.com" # for contact form
+
+
+# Footer : scoial information
+# If you don't have, just let it blank.
+facebook: ""
+instagram: ""
+twitter: ""
+github: ""
+
 
 # Build settings : don't touch
 markdown: kramdown
