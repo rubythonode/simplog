@@ -5,11 +5,9 @@ date:   2016-11-11 12:00:00
 categories: markdown
 ---
 
+"Simplog" is a compound word of "Simple" and "Blog".
 
 ![Alternative Text](https://github.com/dhparkdh/dhparkdh.github.io/blob/master/assets/img/screenshot.png?raw=true)
-
-
-"Simplog" is a compound word of "Simple" and "Blog".
 
 If you want to know how to fix `_config.yml` file, then go to
 [How to fix _config.yml file](https://dhparkdh.github.io/simplog/simplog/2016/12/25/01.html).
