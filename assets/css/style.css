@@ -284,6 +284,64 @@ footer .social-list li:hover {
 }
 
 
+/* contact */
+#contact .form-group {
+  margin: 15px 0px ;
+}
+#contact .btn-group {
+  margin: 15px 0px ;
+}
+#contact .form-group label {
+  display: none ;
+}
+#contact .form-group input {
+  width: 100% ;
+  height: 40px ;
+  padding: 0 20px ;
+  border: 1px solid #ededed ;
+  box-sizing: border-box ;
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+}
+#contact textarea {
+  width: 100% ;
+  min-height: 250px ;
+  padding: 20px ;
+  border: 1px solid #ededed ;
+  box-sizing: border-box ;
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+}
+#contact button {
+  height: 40px ;
+  padding: 6px 12px ;
+  border: 1px solid #ccc ;
+  border-radius: 4px ;
+  background: #fff ;
+  color: #666 ;
+  font-size: 12px ;
+  cursor: pointer ;
+}
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #999;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #999;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #999;
+}
+
+
 /* media query */
 @media screen and (max-width: 767px) {
   .wrapper {
