@@ -87,3 +87,12 @@ So it is recommended that you would not use those two headings in the post.
 ```markdown
 ![Alternative Text](/path/to/image)
 ```
+
+
+### Emebeded
+
+<iframe width="492" height="277" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+
+```html
+<iframe width="492" height="277" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+```

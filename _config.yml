@@ -1,27 +1,29 @@
 
 # Settings
 
-# Title of your site
+# title and description of your site
 title: Simplog
 description: > # this means to ignore newlines until "baseurl:"
   Write the description of your website.
 
 
 # the subpath of your site
-# baseurl: "" # default
+# baseurl: "/"          default
+# baseurl: "/subpath"   subpath
 baseurl: "/simplog"
 
 
-# Contact
-email: "simplog@simplog.com" # for contact form
+# contact
+# email: "example@domain.com"
+email: "simplog@simplog.com"
 
 
-# Footer : scoial information
-# If you don't have, just let it blank.
-facebook: "facebook_link" # default: facebook: ""
-instagram: "instagram_link" # default: instagram: ""
-twitter: "twitter_link" # default: twitter: ""
-github: "github_link" # default: github: ""
+# footer
+# social informaiton
+facebook: ""
+instagram: ""
+twitter: ""
+github: ""
 
 
 # Build settings : don't touch
