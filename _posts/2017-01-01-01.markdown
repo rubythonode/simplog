@@ -87,7 +87,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Image
 
-![Alternative Text](https://github.com/dhparkdh/dhparkdh.github.io/blob/master/assets/img/screenshot.png?raw=true)
+![Alternative Text](/assets/img/screenshot.png?raw=true)
 
 ```markdown
 ![Alternative Text](/path/to/image)
