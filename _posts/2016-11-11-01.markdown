@@ -9,14 +9,9 @@ categories: markdown
 
 ![Alternative Text](https://github.com/dhparkdh/simplog/blob/gh-pages/assets/img/index/image.png?raw=true)
 
-Go to
-[How to fix _config.yml file](https://dhparkdh.github.io/simplog/simplog/2016/12/25/01.html)
-if you want to know how to fix `_config.yml` file.
-
-Go to
-[Sample post using all elements](https://dhparkdh.github.io/simplog/simplog/2017/01/01/01.html)
-if you want to know how to write post using elements.
-
-Go to
-[Simplog Jekyll Blog](https://github.com/dhparkdh/simplog)
-if you want to download `Simplog` jekyll theme.
+If you want to know how to configure `Simplog` , then go to
+[here](https://dhparkdh.github.io/simplog/simplog/2016/12/25/01.html).
+Or if you want to see the sample post, then go to
+[here](https://dhparkdh.github.io/simplog/simplog/2017/01/01/01.html).
+Or if you want to just download the `Simplog` , then go to
+[here](https://github.com/dhparkdh/simplog).
