@@ -2,6 +2,10 @@
 // email transfer
 function sendMail(){
 
+  String.prototype.replaceAt=function(index, character) {
+    return this.substr(0, index) + character + this.substr(index+character.length);
+  }
+
   var to = $("#to");
   var email = $('#user_email');
   var name = $('#user_name');
@@ -32,10 +36,11 @@ function sendMail(){
 
   var _email = to.val();
   var _subject = subject ;
-  var _content = content.val() + new_line + new_line + "from : " + email.val() ;
+  var _content = content.val() + "\n\nfrom : " + email.val();
 
-  window.location = 'mailto:' + _email + '?subject=' + _subject + '&body=' + _content ;
+  // generate new line for mail
+  var __content = _content.replace(/(?:\r\n|\r|\n)/g, new_line);
 
-  
+  window.location = 'mailto:' + _email + '?subject=' + _subject + '&body=' + __content ;
 
 }
