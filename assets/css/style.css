@@ -349,10 +349,10 @@ footer .social-list li:hover {
   section  {
     margin-bottom: 50px ;
   }
-  .post-list > li {
-    margin-bottom: 30px ;
-  }
   footer {
     font-size: 10px ;
+  }
+  #blog .post-list > li {
+    margin-bottom: 30px ;
   }
 }
