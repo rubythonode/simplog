@@ -2,6 +2,11 @@
 layout: contact
 ---
 
+<p>
+  If contact form does not work, send an email to
+  <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+</p>
+
 <form class="contact-form" action="mailto:{{ site.email }}" method="post">
   <input type="hidden" name="to" id="to" value="{{ site.email }}">
   <div class="form-group">
