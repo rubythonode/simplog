@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to fix '_config.yml' file"
+title:  "How to fix [_config.yml] file"
 date:   2016-12-25 12:00:00
 categories: yml
 ---
