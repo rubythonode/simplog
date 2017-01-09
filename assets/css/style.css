@@ -99,7 +99,8 @@ footer .social-list li:hover {
 }
 #main h2 {
   margin-bottom: 50px ;
-  font-size: 24px ;
+  font-size: 28px ;
+  font-weight: bold ;
 }
 #main h3 {
   margin: 80px 0px 25px ;
