@@ -87,6 +87,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Image
 
+Container's full width is 600px. So it is recommened that you upload image that
+has more than 600px of width.
+
 ![Alternative Text](https://github.com/dhparkdh/simplog/blob/gh-pages/assets/img/index/image.png?raw=true)
 
 ```markdown
@@ -95,6 +98,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 ### Emebeded
+
+Container's full width is 600px. So it is recommened that you upload embeded contents that
+has more than 600px of width.
 
 <iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
 
