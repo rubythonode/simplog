@@ -1,5 +1,5 @@
 
-$(window).load(function(){
+$(document).ready(function(){
 
   // footer 하단 고정
   var $footer = $('footer');
@@ -17,6 +17,28 @@ $(window).load(function(){
 
   if(h_html > h_body){
     $footer.css('margin-top', h_diff + mb_sec);
+  }
+
+});
+
+$(window).load(function(){
+
+  // footer 하단 고정
+  var $footer = $('footer');
+  var $section = $('section');
+
+  var h_html = $('html').height();
+  var h_body = $('body').height();
+
+  console.log(h_html);
+  console.log(h_body);
+
+  var h_diff = h_html - h_body ;
+  var mb_sec = parseInt( $section.css('margin-bottom') );
+  var mb_footer = h_diff + mb_sec ;
+
+  if(h_body > h_html){
+    $footer.css('margin-top', 0);
   }
 
 });
