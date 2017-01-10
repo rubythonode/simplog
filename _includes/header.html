@@ -12,7 +12,7 @@
 			<li><a href="{{ "/" | prepend: site.baseurl }}">about</a></li>
 			{% endif %}
 
-      {% if page.path != "index.html" && page.path != "index.html" %}
+      {% if page.path != "index.html" and page.path != "index.html" %}
 			<li class="active"><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
 			{% else %}
 			<li><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
