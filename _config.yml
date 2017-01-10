@@ -20,10 +20,10 @@ email: "simplog@simplog.com"
 
 # footer
 # social informaiton
-facebook: ""
-instagram: ""
-twitter: ""
-github: ""
+facebook: "#"
+instagram: "#"
+twitter: "#"
+github: "#"
 
 
 # Build settings : don't touch
