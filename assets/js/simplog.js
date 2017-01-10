@@ -1,4 +1,23 @@
 
+$(document).ready(function(){
+
+  // footer 하단 고정 
+  var $footer = $('footer');
+  var $section = $('section');
+
+  var h_html = $('html').height();
+  var h_body = $('body').height();
+
+  var h_diff = h_html - h_body ;
+  var mb_sec = parseInt( $section.css('margin-bottom') );
+  var mb_footer = h_diff + mb_sec ;
+
+  if(h_html > h_body){
+    $footer.css('margin-top', h_diff + mb_sec);
+  }
+
+});
+
 // email transfer
 function sendMail(){
 
