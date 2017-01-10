@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 
 # the subpath of your site
-# baseurl: "/"          default
+# baseurl: ""          default
 # baseurl: "/subpath"   subpath
 baseurl: "/simplog"
 

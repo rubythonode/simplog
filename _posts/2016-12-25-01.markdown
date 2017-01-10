@@ -29,7 +29,7 @@ You can set your github blog subpath by editting `baseurl` attribute.
 Default is :
 
 ```xml
-baseurl: "/"
+baseurl: ""
 ```
 
 Or if you want to use subpath,
