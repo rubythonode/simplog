@@ -7,11 +7,12 @@ categories: yml
 
 
 You can set your website information by fixing `_config.yml` file.
+This post will be useful for you to set your blog environment.
 
 
 ### Website title & description
 
-You can set your website title and description by editting `title` and `description` attribute.
+You can set your website title and description by editing `title` and `description` attribute.
 
 ```xml
 title: Simplog
@@ -24,7 +25,8 @@ Don't erase `> # this means to ignore newlines until "baseurl:"`.
 
 ### Base URL
 
-You can set your website path by editting `baseurl` attribute.
+You can set your github blog subpath by editting `baseurl` attribute.
+Default is :
 
 ```xml
 baseurl: "/"
@@ -40,7 +42,6 @@ baseurl: "/subpath"
 ### Email for contact
 
 `email` attribute is used for contact page.
-Just write your email address.
 
 ```xml
 email: "example@domain.com"
@@ -51,6 +52,7 @@ email: "example@domain.com"
 
 In the bottom of the website, you'll see social icon linked to your social page.
 All you need to do is write your social page's web address.
+If you don't want to show your social icon, just leave it blank.
 
 ```xml
 facebook: ""

@@ -6,7 +6,7 @@ categories: markdown
 ---
 
 
-This post will be helpful to write post using simplog's elements.
+This post will be helpful for you to write post using all Simplog's elements.
 
 
 ### Highlight Code View
