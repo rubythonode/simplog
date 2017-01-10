@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Simplog sample post for example"
+title:  "Sample post"
 date:   2017-01-01 12:00:00
-categories: simplog
+categories: markdown
 ---
 
 
-"Simplog" is a compound word of "Simple" and "Blog".
+This post will be helpful for you to write post using all Simplog's elements.
 
 
 ### Highlight Code View
@@ -27,18 +27,32 @@ You can use highlight code view.
 
 You can use 3 heading by default.
 
-<h3 style="margin: 0;">Heading First Level</h3>
-<h4 style="margin: 0;">Heading Second Level</h4>
-<h5 style="margin: 0 0 50px;">Heading Thrid Level</h5>
+<h3 style="margin: 0;">Heading Level 1</h3>
+<h4 style="margin: 0;">Heading Level 2</h4>
+<h5 style="margin: 0 0 50px;">Heading Level 3</h5>
 
 ```markdown
-### Heading First Level
-#### Heading Second Level
-##### Heading Thrid Level
+### Heading Level 1
+#### Heading Level 2
+##### Heading Level 3
 ```
 
 `# Heading` is for blog's logo and `## Heading` is for post's title.
 So it is recommended that you would not use those two headings in the post.
+
+
+### Paragraph
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+
+### Anchor Tag
+
+[Simplog Download Page](https://github.com/dhparkdh/simplog)
+
+```markdown
+[Simplog Download Page](https://github.com/dhparkdh/simplog)
+```
 
 
 ### Unordered List
@@ -71,19 +85,25 @@ So it is recommended that you would not use those two headings in the post.
 ```
 
 
-### Anchor Tag
-
-[Simplog Download Page](https://github.com/dhparkdh/simplog)
-
-```markdown
-[Simplog Download Page](https://github.com/dhparkdh/simplog)
-```
-
-
 ### Image
 
-![Alternative Text](https://github.com/dhparkdh/dhparkdh.github.io/blob/master/assets/img/screenshot.png?raw=true)
+Container's full width is 600px. So it is recommened that you upload image that
+has more than 600px of width.
+
+![Alternative Text](https://github.com/dhparkdh/simplog/blob/gh-pages/assets/img/index/image.png?raw=true)
 
 ```markdown
 ![Alternative Text](/path/to/image)
+```
+
+
+### Emebeded
+
+Container's full width is 600px. So it is recommened that you upload embeded contents that
+has more than 600px of width.
+
+<iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+
+```html
+<iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
 ```

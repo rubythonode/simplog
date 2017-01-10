@@ -1,4 +1,8 @@
 
+/* common */
+html {
+  height: 100% ;
+}
 body {
   color: #333 ;
   font-family: 'Noto Sans Korean', sans-serif;
@@ -7,27 +11,26 @@ body {
 }
 
 .wrapper {
-  max-width: 720px ;
-  padding: 75px 50px 20px ;
+  position: relative ;
+  max-width: 620px ;
+  padding: 50px 10px 30px ;
   margin: 0 auto ;
   box-sizing: border-box ;
 }
 
 
 /* header */
-header {
+#gb-header {
   position: relative ;
-  padding: 0px 10px 25px ;
+  padding: 0px 10px 15px ;
   border-bottom: 1px solid #ededed ;
   margin-bottom: 100px ;
 }
-
-header h1 {
-  font-size: 30px ;
-  font-weight: 300 ;
+#gb-header h1 {
+  font-size: 24px ;
+  font-weight: bold ;
 }
-
-header .gb-nav {
+#gb-header .gb-nav {
   position: absolute ;
   bottom: 0 ;
   right: 10px ;
@@ -35,36 +38,37 @@ header .gb-nav {
   padding-bottom: 15px ;
   box-sizing: border-box ;
 }
-header .gb-nav:before {
+#gb-header .gb-nav:before {
   /* 메뉴 중앙 정렬 코드 */
   content: ' ' ;
   display: inline-block ;
   height: 100% ;
   vertical-align: middle ;
 }
-header .gb-nav ul {
+#gb-header .gb-nav ul {
   display: inline-block ;
   vertical-align: middle ;
 }
-header .gb-nav ul li {
+#gb-header .gb-nav ul li {
   display: inline-block ;
   margin-left: 20px ;
   font-size: 18px ;
   font-weight: 200 ;
 }
-header .gb-nav ul li a {
+#gb-header .gb-nav ul li a {
   color: #999 ;
 }
-header .gb-nav ul li.active a {
+#gb-header .gb-nav ul li.active a {
   color: #333 ;
 }
-header .gb-nav ul li a:hover {
+#gb-header .gb-nav ul li a:hover {
   color: #333 ;
 }
 
 
 /* section */
 section {
+  position: relative ;
   padding: 0 10px ;
   margin-bottom: 100px ;
 }
@@ -93,11 +97,99 @@ footer .social-list li:hover {
 }
 
 
+/* section : post */
+#main > * {
+  margin-bottom: 30px ;
+}
+#main h2 {
+  margin-bottom: 30px ;
+  font-size: 28px ;
+  font-weight: bold ;
+}
+#main h3 {
+  margin: 50px 0px 25px ;
+  font-size: 20px ;
+}
+#main h4 {
+  margin: 40px 0px 20px ;
+  font-size: 18px ;
+}
+#main h5 {
+  margin: 30px 0px 15px ;
+  font-size: 16px ;
+}
+#main p {
+  color: #666 ;
+  font-size: 16px ;
+  font-weight: 300 ;
+}
+#main ul {
+  list-style: disc ;
+  padding-left: 50px ;
+  color: #666 ;
+  font-weight: 300 ;
+}
+#main ol {
+  list-style: decimal ;
+  padding-left: 50px ;
+  color: #666 ;
+  font-weight: 300 ;
+}
+#main a {
+  color: #999 ;
+  font-size: 16px ;
+  font-weight: 300 ;
+  text-decoration: underline ;
+}
+#main a:hover {
+  color: #333 ;
+}
+#main img {
+  width: 100% ;
+}
+#main iframe {
+  width: 100% ;
+}
+
+#main .post-info {
+  position: relative ;
+  padding: 0 ;
+  margin-bottom: 50px ;
+  list-style: none ;
+}
+#main .post-info .post-date a {
+  color: #aaa ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-transform: uppercase ;
+}
+#main .post-info .post-date a:hover {
+  color: #666 ;
+}
+
+#main .post-info .post-tags {
+  position: absolute ;
+  right: 0 ;
+  top: 0 ;
+}
+#main .post-info .post-tags ul li {
+  display: inline-block ;
+  margin-right: 5px ;
+}
+#main .post-info .post-tags ul li a {
+  color: #ccc ;
+  font-size: 12px ;
+  font-weight: 300 ;
+  text-decoration: none ;
+}
+#main .post-info .post-tags ul li:hover a {
+  color: #666 ;
+}
+
+
 /* blog */
 #blog .post-list > li {
-  /*padding-bottom: 50px ;*/
-  /*border-bottom: 1px solid #ededed ;*/
-  margin-bottom: 75px ;
+  margin-bottom: 50px ;
 }
 #blog .post-list > li:last-child {
   border: none ;
@@ -107,7 +199,6 @@ footer .social-list li:hover {
 #blog .post-title {
   margin-bottom: 10px ;
   font-size: 20px ;
-  /*font-weight: 300 ;*/
   line-height: 1.4 ;
 }
 #blog .post-title::first-letter {
@@ -156,123 +247,117 @@ footer .social-list li:hover {
 }
 
 
-/* post */
-#post > * {
-  margin-bottom: 50px ;
+/* sort */
+#sort h2 {
+  margin: 50px 0px ;
+  font-size: 24px ;
 }
-#post .post-info {
-  position: relative ;
-  padding: 0 ;
-  margin-bottom: 50px ;
-  list-style: none ;
-}
-#post .post-info .post-date a {
-  color: #aaa ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-transform: uppercase ;
-}
-#post .post-info .post-date a:hover {
-  color: #666 ;
-}
-
-#post .post-info .post-tags {
-  position: absolute ;
-  right: 0 ;
-  top: 0 ;
-}
-#post .post-info .post-tags ul li {
-  display: inline-block ;
-  margin-right: 5px ;
-}
-#post .post-info .post-tags ul li a {
-  color: #ccc ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-decoration: none ;
-}
-#post .post-info .post-tags ul li:hover a {
-  color: #666 ;
-}
-
-#post h2 {
-  font-size: 22px ;
-}
-#post h3 {
-  margin: 80px 0px 40px ;
-  font-size: 20px ;
-}
-#post h4 {
-  margin: 70px 0px 30px ;
-  font-size: 18px ;
-}
-#post h5 {
-  margin: 70px 0px 20px ;
-  font-size: 16px ;
-}
-#post p {
-  color: #666 ;
-  font-size: 16px ;
-  font-weight: 300 ;
-}
-#post ul {
+#sort ul {
   list-style: disc ;
   padding-left: 50px ;
   color: #666 ;
   font-weight: 300 ;
 }
-#post ol {
-  list-style: decimal ;
-  padding-left: 50px ;
-  color: #666 ;
-  font-weight: 300 ;
-}
-#post a {
+#sort a {
   color: #999 ;
   font-size: 16px ;
   font-weight: 300 ;
   text-decoration: underline ;
 }
-#post a:hover {
+#sort a:hover {
   color: #333 ;
 }
-#post img {
+#sort .date {
+  display: inline-block ;
+  width: 65px ;
+}
+
+
+/* contact */
+#contact p {
+  margin-bottom: 30px ;
+  color: #666 ;
+  font-size: 16px ;
+  font-weight: 300 ;
+}
+#contact a {
+  color: #999 ;
+  font-size: 16px ;
+  font-weight: 300 ;
+  text-decoration: underline ;
+}
+#contact .form-group {
+  margin: 15px 0px ;
+}
+#contact .btn-group {
+  margin: 15px 0px ;
+}
+#contact .form-group label {
+  display: none ;
+}
+#contact .form-group input {
   width: 100% ;
+  height: 40px ;
+  padding: 0 20px ;
+  border: 1px solid #ededed ;
+  box-sizing: border-box ;
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+}
+#contact textarea {
+  width: 100% ;
+  min-height: 250px ;
+  padding: 20px ;
+  border: 1px solid #ededed ;
+  box-sizing: border-box ;
+  color: #666 ;
+  font-size: 14px ;
+  font-weight: 300 ;
+}
+#contact button {
+  height: 40px ;
+  padding: 6px 12px ;
+  border: 1px solid #ccc ;
+  border-radius: 4px ;
+  background: #fff ;
+  color: #666 ;
+  font-size: 12px ;
+  cursor: pointer ;
 }
 
-#post iframe {
-  width: 1024px!important ;
-  margin-left: -212px ;
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #999;
 }
-@media screen and (max-width: 1280px) {
-  #post iframe {
-    width: 100%!important ;
-    margin: 0 ;
-  }
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #999;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #999;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #999;
 }
 
 
+/* media query */
 @media screen and (max-width: 767px) {
   .wrapper {
     padding: 30px 10px ;
   }
-  header {
+  #gb-header {
     margin-bottom: 50px ;
   }
-  header h1 {
-    font-size: 30px ;
-  }
-  header .gb-nav ul li {
-    margin-left: 10px ;
-  }
-  .post-list > li {
-    padding-bottom: 30px ;
+  section  {
     margin-bottom: 50px ;
-  }
-  .post-list >li .post-title {
-    font-size: 20px ;
   }
   footer {
     font-size: 10px ;
+  }
+  #blog .post-list > li {
+    margin-bottom: 30px ;
   }
 }
