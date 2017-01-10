@@ -1,9 +1,8 @@
 
 # About Simplog
 
-The word, Simplog is a compound word of simple and blog.
-Also it is a free blog template for jekyll,
-so anyone who want this template can download
+Simplog is a simple and free blog template for jekyll.
+So anyone who want this template can download
 [here](https://github.com/dhparkdh/simplog).
 
 ![Alternative Text](/assets/img/index/image.png)
