@@ -1,12 +1,15 @@
 
 $(document).ready(function(){
 
-  // footer 하단 고정 
+  // footer 하단 고정
   var $footer = $('footer');
   var $section = $('section');
 
   var h_html = $('html').height();
   var h_body = $('body').height();
+
+  console.log(h_html);
+  console.log(h_body);
 
   var h_diff = h_html - h_body ;
   var mb_sec = parseInt( $section.css('margin-bottom') );
