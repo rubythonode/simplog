@@ -18,7 +18,7 @@
 			<li><a href="{{ "/blog" | prepend: site.baseurl }}">blog</a></li>
 			{% endif %}
 
-      {% if page.path != "contact.html" %}
+      {% if page.path == "contact.html" %}
 			<li class="active"><a href="{{ "/contact" | prepend: site.baseurl }}">contact</a></li>
 			{% else %}
 			<li><a href="{{ "/contact" | prepend: site.baseurl }}">contact</a></li>
