@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(window).load(function(){
 
   // footer 하단 고정
   var $footer = $('footer');
