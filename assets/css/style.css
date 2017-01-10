@@ -22,7 +22,7 @@ body {
 /* header */
 #gb-header {
   position: relative ;
-  padding: 0px 10px 20px ;
+  padding: 0px 10px 15px ;
   border-bottom: 1px solid #ededed ;
   margin-bottom: 100px ;
 }
@@ -35,7 +35,7 @@ body {
   bottom: 0 ;
   right: 10px ;
   height: 100% ;
-  padding-bottom: 20px ;
+  padding-bottom: 15px ;
   box-sizing: border-box ;
 }
 #gb-header .gb-nav:before {
