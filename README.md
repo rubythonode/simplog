@@ -2,7 +2,7 @@
 # About Simplog
 
 Simplog is a simple and free blog template for jekyll.
-And You can see ![demo](https://dhparkdh.github.io/simplog/).
+And You can see [demo](https://dhparkdh.github.io/simplog/).
 
 ![Alternative Text](/assets/img/simplog.png)
 
