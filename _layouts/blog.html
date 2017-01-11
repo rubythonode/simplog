@@ -11,9 +11,9 @@
       <section id="blog">
 
         <div class="sort-area">
-          <a href="#">sort by year</a>
+          <a href="{{ "/archive" | prepend: site.baseurl }}">sort by year</a>
           &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-          <a href="#">sort by category</a>
+          <a href="{{ "/category" | prepend: site.baseurl }}">sort by category</a>
         </div>
 
         {{ content }}
