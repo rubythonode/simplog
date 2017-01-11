@@ -183,6 +183,15 @@ footer .social-list li:hover {
   text-transform: capitalize ;
 }
 
+#blog .sort-area {
+  position: absolute ;
+  top: -95px ;
+  right: 10px ;
+  color: #999 ;
+  font-size: 12px ;
+  font-weight: 200 ;
+}
+
 
 /* sort */
 #sort h2 {
