@@ -87,7 +87,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ### Image
 
-Container's full width is 600px. So it is recommened that you upload image that
+Container's full width is 600px, so it is recommened that you upload image that
 has more than 600px of width.
 
 ![Alternative Text](https://raw.githubusercontent.com/dhparkdh/simplog/gh-pages/assets/img/simplog.png)
@@ -99,11 +99,11 @@ has more than 600px of width.
 
 ### Emebeded
 
-Container's full width is 600px. So it is recommened that you upload embeded contents that
-has more than 600px of width.
+Container's full width is 600px, so it is recommened that you upload embeded contents that
+has more than 600px of width. And aslo iframe's aspect ratio is automatically set to 16: 9.
 
-<iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
 
 ```html
-<iframe width="600" height="450" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/KIViy7L_lo8" frameborder="0" allowfullscreen></iframe>
 ```
