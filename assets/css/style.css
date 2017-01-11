@@ -1,6 +1,8 @@
 
 /* common */
-
+html {
+  height: 100% ;
+}
 body {
   color: #333 ;
   font-family: 'Noto Sans Korean', sans-serif;
