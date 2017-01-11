@@ -185,11 +185,14 @@ footer .social-list li:hover {
 
 #blog .sort-area {
   position: absolute ;
-  top: -95px ;
+  top: -90px ;
   right: 10px ;
-  color: #999 ;
+  color: #bbb ;
   font-size: 12px ;
   font-weight: 200 ;
+}
+#blog .sort-area a:hover {
+  color: #666 ;
 }
 
 
