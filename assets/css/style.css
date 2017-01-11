@@ -1,8 +1,5 @@
 
 /* common */
-html {
-  height: 100% ;
-}
 body {
   color: #333 ;
   font-family: 'Noto Sans Korean', sans-serif;
@@ -12,7 +9,7 @@ body {
 
 .wrapper {
   position: relative ;
-  max-width: 620px ;
+  max-width: 640px ;
   padding: 50px 10px 30px ;
   margin: 0 auto ;
   box-sizing: border-box ;

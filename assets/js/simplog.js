@@ -19,6 +19,15 @@ $(document).ready(function(){
     $footer.css('margin-top', h_diff + mb_sec);
   }
 
+
+  // iframe height setting
+  var $iframe = $('iframe');
+
+  var w_iframe = $iframe.width();
+  var h_iframe = w_iframe * 9 / 16 ;
+
+  $iframe.height(h_iframe);
+
 });
 
 // email transfer
