@@ -229,6 +229,12 @@ footer .social-list li:hover {
   font-size: 12px ;
   font-weight: 200 ;
 }
+#sort .sort-area a {
+  color: #bbb ;
+  font-size: 12px ;
+  font-weight: 200 ;
+  text-decoration: none ;
+}
 #sort .sort-area a:hover {
   color: #666 ;
 }
