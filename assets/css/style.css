@@ -221,6 +221,18 @@ footer .social-list li:hover {
   width: 65px ;
 }
 
+#sort .sort-area {
+  position: absolute ;
+  top: -90px ;
+  right: 10px ;
+  color: #bbb ;
+  font-size: 12px ;
+  font-weight: 200 ;
+}
+#sort .sort-area a:hover {
+  color: #666 ;
+}
+
 
 /* contact */
 #contact p {
