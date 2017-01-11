@@ -7,7 +7,7 @@ categories: markdown
 
 Simplog is a simple and free blog template for jekyll.
 So anyone who want this template can download
-[here](https://github.com/dhparkdh/simplog).
+[here](https://github.com/dhparkdh/simplog/tree/gh-pages).
 
 ![Alternative Text](/assets/img/simplog.png)
 
