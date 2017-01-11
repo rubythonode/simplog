@@ -235,6 +235,9 @@ footer .social-list li:hover {
   font-weight: 200 ;
   text-decoration: none ;
 }
+#sort .sort-area a.active {
+  color: #666 ;
+}
 #sort .sort-area a:hover {
   color: #666 ;
 }
