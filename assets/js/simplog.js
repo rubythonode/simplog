@@ -19,27 +19,14 @@ $(document).ready(function(){
     $footer.css('margin-top', h_diff + mb_sec);
   }
 
-});
 
-$(window).load(function(){
+  // iframe height setting
+  var $iframe = $('iframe');
 
-  // footer 하단 고정
-  var $footer = $('footer');
-  var $section = $('section');
+  var w_iframe = $iframe.width();
+  var h_iframe = w_iframe * 9 / 16 ;
 
-  var h_html = $('html').height();
-  var h_body = $('body').height();
-
-  console.log(h_html);
-  console.log(h_body);
-
-  var h_diff = h_html - h_body ;
-  var mb_sec = parseInt( $section.css('margin-bottom') );
-  var mb_footer = h_diff + mb_sec ;
-
-  if(h_body > h_html){
-    $footer.css('margin-top', 0);
-  }
+  $iframe.height(h_iframe);
 
 });
 

@@ -29,13 +29,23 @@ You can set your github blog subpath by editting `baseurl` attribute.
 Default is :
 
 ```xml
-baseurl: "/"
+baseurl: ""
 ```
 
 Or if you want to use subpath,
 
 ```xml
 baseurl: "/subpath"
+```
+
+
+### Site URL
+
+You can set your the base hostname and protocol for your site.
+It is used for `feed.xml` file.
+
+```xml
+url: "http://domain.com"
 ```
 
 

@@ -10,6 +10,24 @@
 
       <section id="sort">
 
+        <div class="sort-area">
+
+          {% if page.path == "archive.html" %}
+    			<a class="active" href="{{ "/archive" | prepend: site.baseurl }}">sort by year</a>
+    			{% else %}
+    			<a href="{{ "/archive" | prepend: site.baseurl }}">sort by year</a>
+    			{% endif %}
+
+          &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+          {% if page.path == "category.html" %}
+    			<a class="active" href="{{ "/category" | prepend: site.baseurl }}">sort by category</a>
+    			{% else %}
+    			<a href="{{ "/category" | prepend: site.baseurl }}">sort by category</a>
+    			{% endif %}
+
+        </div>
+
         {{ content }}
 
       </section>
