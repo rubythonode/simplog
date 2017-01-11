@@ -1,5 +1,6 @@
 
 /* common */
+
 body {
   color: #333 ;
   font-family: 'Noto Sans Korean', sans-serif;
@@ -23,10 +24,12 @@ body {
   border-bottom: 1px solid #ededed ;
   margin-bottom: 100px ;
 }
+
 #gb-header h1 {
   font-size: 24px ;
   font-weight: bold ;
 }
+
 #gb-header .gb-nav {
   position: absolute ;
   bottom: 0 ;
@@ -81,6 +84,7 @@ footer {
   font-weight: 200 ;
   text-align: left ;
 }
+
 footer .social-list {
   position: absolute ;
   right: 10px ;
@@ -148,41 +152,6 @@ footer .social-list li:hover {
   width: 100% ;
 }
 
-#main .post-info {
-  position: relative ;
-  padding: 0 ;
-  margin-bottom: 50px ;
-  list-style: none ;
-}
-#main .post-info .post-date a {
-  color: #aaa ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-transform: uppercase ;
-}
-#main .post-info .post-date a:hover {
-  color: #666 ;
-}
-
-#main .post-info .post-tags {
-  position: absolute ;
-  right: 0 ;
-  top: 0 ;
-}
-#main .post-info .post-tags ul li {
-  display: inline-block ;
-  margin-right: 5px ;
-}
-#main .post-info .post-tags ul li a {
-  color: #ccc ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-decoration: none ;
-}
-#main .post-info .post-tags ul li:hover a {
-  color: #666 ;
-}
-
 
 /* blog */
 #blog .post-list > li {
@@ -210,37 +179,6 @@ footer .social-list li:hover {
 }
 #blog .post-summary::first-letter {
   text-transform: capitalize ;
-}
-
-#blog .post-info {
-  position: relative ;
-}
-
-#blog .post-info .post-date {
-  color: #aaa ;
-  font-size: 12px ;
-  font-weight: 300 ;
-  text-decoration: underline ;
-}
-#blog .post-info .post-date a:hover {
-  color: #666 ;
-}
-
-#blog .post-info .post-tags {
-  position: absolute ;
-  right: 0 ;
-  top: 0 ;
-  color: #ccc ;
-  font-size: 12px ;
-  font-weight: 300 ;
-}
-#blog .post-info .post-tags ul li {
-  display: inline-block ;
-  margin-right: 5px ;
-}
-#blog .post-info .post-tags ul li a:hover {
-  color: #666 ;
-  text-decoration: underline ;
 }
 
 
@@ -324,6 +262,7 @@ footer .social-list li:hover {
 }
 
 
+/* placeholder -->
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #999;
 }
