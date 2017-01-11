@@ -90,7 +90,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 Container's full width is 600px. So it is recommened that you upload image that
 has more than 600px of width.
 
-![Alternative Text](https://github.com/dhparkdh/simplog/blob/gh-pages/assets/img/index/image.png?raw=true)
+![Alternative Text](https://raw.githubusercontent.com/dhparkdh/simplog/gh-pages/assets/img/simplog.png)
 
 ```markdown
 ![Alternative Text](/path/to/image)
